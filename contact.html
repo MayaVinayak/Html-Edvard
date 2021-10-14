@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="edvard.css">
+    <title>University</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="nav-link" onclick="hidemenu()">
+                <i class="fa fa-times"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>   
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+
+        <h1>Contact Us</h1>
+
+    </section>
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7854.839512788049!2d77.63868577408434!3d10.146494121003142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07438e6a7b7fd7%3A0xcbe5be6fe59eae80!2sDevadanapatti%2C%20Tamil%20Nadu%20625602!5e0!3m2!1sen!2sin!4v1623380127570!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+    </section>
+
+    <section class="conc-row">
+        <div class="row">
+            <div class="loc-col">
+                <div class="conc"><span><i class="fa fa-home"></i></span>
+                    <span><h3>Devadhanapatti</h3><p>Theni Tamil Nadu-625602</p></span>
+                </div>
+                <div class="conc"><span><i class="fa fa-phone"></i></span><span><h3>+91-63839310</h3><p>Saturday and Sunday</p></span></div>
+                <div class="conc"><span><i class="fa fa-envelope"></i></span><span><h3>mayavinayak@gmail.com</h3><p>your Query</p></span></div>
+                
+            </div>
+            <div class="loc-col2">
+                <form action="">
+                    <input type="text" placeholder="Enter your Name">
+                    <input type="Email" placeholder="Email">
+                    <input type="text" placeholder="Addreess">
+                    <textarea  rows="15" placeholder="comments" ></textarea>
+                    <button class="hero-btn red-btn" type="submit"> Submit</button>
+                </form>
+    
+            </div>
+        </div>
+        
+    </section>
+
+  
+
+   
+    <!-- ---- footer------ -->
+    <section class="footer">
+        <h2>About us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ea iusto odit laborum laboriosam <br>
+            explicabo dignissimos nihil distinctio quasi esse!</p>
+
+        <div class="icon">
+            <li class="fa fa-instagram"></li>
+            <li class="fa fa-facebook"></li>
+            <li class="fa fa-linkedin"></li>
+            <li class="fa fa-twitter"></li>
+            <li class="fa fa-pinterest"></li>
+        </div>    
+    </section>
+
+
+
+<!-- javascripi -->
+    <script>
+        var a = document.getElementById("nav-link");
+        function showmenu(){
+            a.style.right="0px";
+        }
+        function hidemenu(){
+            a.style.right="-200px";
+        }
+    </script>
+
+
+
+</body>
+</html>

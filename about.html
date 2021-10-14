@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="edvard.css">
+    <title>University</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="nav-link" onclick="hidemenu()">
+                <i class="fa fa-times"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>   
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+
+        <h1>About Us</h1>
+
+    </section>
+
+
+    <!-- -----aboutus------ -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are The Largest Community</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt itaque, laudantium id nisi repudiandae omnis quia aut, quaerat quod velit maiores est consequatur rerum illum suscipit vitae, maxime laborum! Eum.</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+  
+
+   
+    <!-- ---- footer------ -->
+    <section class="footer">
+        <h2>About us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ea iusto odit laborum laboriosam <br>
+            explicabo dignissimos nihil distinctio quasi esse!</p>
+
+        <div class="icon">
+            <li class="fa fa-instagram"></li>
+            <li class="fa fa-facebook"></li>
+            <li class="fa fa-linkedin"></li>
+            <li class="fa fa-twitter"></li>
+            <li class="fa fa-pinterest"></li>
+        </div>    
+    </section>
+
+
+
+<!-- javascripi -->
+    <script>
+        var a = document.getElementById("nav-link");
+        function showmenu(){
+            a.style.right="0px";
+        }
+        function hidemenu(){
+            a.style.right="-200px";
+        }
+    </script>
+
+
+
+</body>
+</html>
